@@ -1,0 +1,12 @@
+- 安装
+  - [本地安装]()
+  - [VPS]()
+  - [常见问题]()
+- 配置文件
+  - 1.12.2
+    - [mohist.yml](config/mohist-yml-1.12.2.md)
+  - 1.16.4
+    - [mohist.yml]()
+- Developer
+  - [Dependencies](developer/dependencies.md)
+  - [JavaDocs](developer/javadocs.md)
