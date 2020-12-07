@@ -1,9 +1,9 @@
-- 安装
-  - [Mohist简介]()
-  - [本地安装]()
-  - [VPS]()
-  - [常见问题](install/problem.md)
-- 配置文件
+- Install
+  - [Mohist]()
+  - [Local installation]()
+  - [VPS installation]()
+  - [Common problem](install/problem.md)
+- Configuration
   - 1.12.2
     - [mohist.yml](config/mohist-yml-1.12.2.md)
   - 1.16.4
