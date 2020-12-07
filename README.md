@@ -1,3 +1,3 @@
 # Mohist Wiki
 
-> An awesome project.
+> This page is being improved, and you can also participate in writing!
