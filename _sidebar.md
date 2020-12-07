@@ -1,12 +1,14 @@
 - 安装
+  - [Mohist简介]()
   - [本地安装]()
   - [VPS]()
-  - [常见问题]()
+  - [常见问题](install/problem.md)
 - 配置文件
   - 1.12.2
     - [mohist.yml](config/mohist-yml-1.12.2.md)
   - 1.16.4
     - [mohist.yml]()
 - Developer
+  - [Build](developer/build.md)
   - [Dependencies](developer/dependencies.md)
   - [JavaDocs](developer/javadocs.md)

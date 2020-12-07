@@ -1,3 +1,3 @@
-# Headline
+# Mohist Wiki
 
 > An awesome project.
