@@ -5,45 +5,45 @@ The file path `*/mohist-config/mohist.yml`
 * `entity-tick-limit: 300`
 
 * `hidejoinmodslist: false`  
-  #: 隐藏玩家进入服务器在控制台显示的模组列表
+  #: Hide the player's mod list
 
 * `world`  
-  #: 与world有关的设置
+  #: World-related settings
   - `directory_in_client: true`  
-    #: 世界储存路径安装客户端进行  
+    #: Install the client to the world storage path
   - `stopserversaveworlds: false`  
-    #: 服务器关闭时不保存所有世界
+    #: Do not save all worlds when the server is shut down
   - `dimensionsNotLoaded: []`  
-    #: 该列表中的维度ID将不会被服务器加载
+    #: The dimension IDs in this list will not be loaded by the server
 
 * `mohist`
   - `use_custom_java8: false`  
-    #: 设置为`true`后你可以使用自定义版本的JAVA8
+    #: After setting to `true` you can use a customized version of JAVA8
   - `check_update: true`  
-    #: Mohist版本更新检测
+    #: Mohist version update detection
   - `server-type: FML`  
-    #: 设置客户端MOTD右下角显示的图标， 可设置为 `FML` `BUKKIT` `VANILLA`
+    #: Set the icon displayed in the lower right corner of the client MOTD, which can be set to `FML` `BUKKIT` `VANILLA`
   - `lang: xx_XX`  
-    #: 控制台与内部提示的语言，默认使用系统语言
+    #: The language of the console and internal prompts, the system language is used by default
   - `console_name: Server`  
-    #: 使用控制台发送信息时显示的前缀名
+    #: The prefix name displayed when sending information using the console
   - `CloseChatInConsole: false`  
-    #: 开启后玩家在服务器所有的发言将不会显示在控制台，但仍会被记录到log中
+    #: After opening, all the speeches of the player on the server will not be displayed in the console, but will still be recorded in the log
   - `check_libraries: true`  
-    #: 检测运行所需的库，如果不存在将自动下载
+    #: Check the library required for operation, if it does not exist, it will be downloaded automatically
   - `support_nocmd: false`  
-    #: 部分使用面板服的需要开启该设置
+    #: Some people who use panel servers need to enable this setting
   - `disable_mods_blacklist: false`  
-    #: 关闭mods黑名单检测，大部分都是不兼容或者已经在mohist内部实现的mod
+    #: Turn off mods blacklist detection, most of them are incompatible or mods that have been implemented inside mohist
   - `disable_plugins_blacklist: false`  
-    #: 关闭插件黑名单检测，大部分都是不兼容或者已经在mohist内部实现的插件
+    #: Turn off plugins blacklist detection, most of them are incompatible or plugins that have been implemented inside mohist
   - `check_update_auto_download: false`  
-    #: 检测到新版本后自动下载
+    #: Automatically download when new version is detected
   - `realtimeticking: false`  
-    #: realtime？ 该功能来自SpongeForge
+    #: realtime？ This feature comes from SpongeForge
   - `watchdog_mohist: false`  
-    #: Mohist的watchdog
+    #: Mohist's watchdog
   - `watchdog_spigot: true`  
-    #: Spigot的watchdog
+    #: Spigot'swatchdog
   - `showlogo: true`  
-    #: 运行Mohist时你会看到的字符LOGO
+    #: The character LOGO you will see when running Mohist
