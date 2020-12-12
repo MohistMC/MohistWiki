@@ -1,7 +1,7 @@
 - Install
   - [Mohist]()
-  - [Local installation]()
-  - [VPS installation]()
+  - [Windows installation](install/windows.md)
+  - [Linux installation]()
   - [Common problem](install/problem.md)
 - Configuration
   - 1.12.2
