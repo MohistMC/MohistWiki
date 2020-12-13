@@ -5,7 +5,7 @@
 Note: Libraries are mainly loaded by Class-Path  
 
 
-#### An example of using a custom library:
+#### An example of using a custom libraries:
 \libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar  
 Now we need to modify the version of asm-debug-all to 7.0
 
