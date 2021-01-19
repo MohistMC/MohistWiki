@@ -1,7 +1,7 @@
 - Install
   - [Mohist]()
   - [Windows installation](install/windows.md)
-  - [Linux installation](intall/linux.md)
+  - [Linux installation](install/linux.md)
   - [Common problem](install/problem.md)
 - Configuration
   - 1.12.2
