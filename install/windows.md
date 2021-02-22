@@ -1,19 +1,19 @@
-## Windows installation
+## Установка Windows
 
 ---
-Download
+Скачать
 ---
 
-You can download the latest version from [Jenkins](https://ci.codemc.org/job/Mohist-Community/).
+Вы можете скачать последнюю версию с сайта [Jenkins](https://ci.codemc.org/job/Mohist-Community/).
 
-Install
+Установка
 ---
-This software requires Java 8.
+Данное ядро требует Java 8
 
-[Download Mohist](https://ci.codemc.org/job/Mohist-Community/) and place the server jar in an empty directory.
+[Скачать Mohist](https://ci.codemc.org/job/Mohist-Community/) и поместите server jar в пустой каталог.
 
-Now launch it using the `java` command:
+Теперь запустите его с помощью `java` команд:
 
 ```
-java -jar mohist-<mcversion>-<buildnumber>-server.jar
+java -jar mohist-<версия>-<номер_билда>-server.jar
 ```
