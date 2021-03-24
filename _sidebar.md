@@ -6,7 +6,7 @@
 - Configuration
   - 1.12.2
     - [mohist.yml](config/mohist-yml-1.12.2.md)
-  - 1.16.4
+  - 1.16.5
     - [mohist.yml]()
 - Developer
   - [Build](developer/build.md)

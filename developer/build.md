@@ -19,12 +19,12 @@ The Mohist server jar file is located at .\projects\mohist\build\libs\mohist-xxx
 This is the jarfile that you should run.
 
 ---
-### 1.16.4
+### 1.16.5
 * Checkout project
     * Clone Mohist:
       ```
         git clone https://github.com/Mohist-Community/Mohist.git
-        git checkout 1.16.4
+        git checkout 1.16.5
       ```
 * Build Mohist
     * Build with Linux:  
