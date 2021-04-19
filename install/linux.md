@@ -9,7 +9,7 @@ You can also use wget command if you want. Example : `wget https://mohistmc.com/
 
 Install
 ---
-Mohist 1.12.2 requires Java 8 and Mohist 1.16.5 requires up to Java 11.
+Mohist 1.12.2 requires Java 8 and Mohist 1.16.5 requires Java 11.
 
 When you downloaded the jar file, place it in an empty directory.
 
