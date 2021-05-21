@@ -1,5 +1,5 @@
 * [HOME](https://mohistmc.com/)
-* [Jenkins](https://ci.codemc.io/job/Mohist-Community)
-* [GitHub](https://github.com/Mohist-Community)
+* [Jenkins](https://ci.codemc.io/job/MohistMC)
+* [GitHub](https://github.com/MohistMC)
 * [Discord](https://discord.gg/ZgXjHGd)
 * [QQ](https://jq.qq.com/?_wv=1027&k=5YIRYnH)

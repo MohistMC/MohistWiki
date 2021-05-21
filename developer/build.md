@@ -5,7 +5,7 @@
 * Checkout project
   * Clone Mohist:  
     ```
-    git clone https://github.com/Mohist-Community/Mohist.git
+    git clone https://github.com/MohistMC/Mohist.git
     git checkout 1.12.2
     ```
 * Build Mohist
@@ -23,7 +23,7 @@ This is the jarfile that you should run.
 * Checkout project
     * Clone Mohist:
       ```
-        git clone https://github.com/Mohist-Community/Mohist.git
+        git clone https://github.com/MohistMC/Mohist.git
         git checkout 1.16.5
       ```
 * Build Mohist

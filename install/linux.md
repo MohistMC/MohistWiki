@@ -4,7 +4,7 @@
 Download
 ---
 
-You can download the latest version from [Jenkins](https://ci.codemc.org/job/Mohist-Community/) or Mohist website (https://mohistmc.com/).
+You can download the latest version from [Jenkins](https://ci.codemc.org/job/MohistMC/) or Mohist website (https://mohistmc.com/).
 You can also use wget command if you want. Example : `wget https://mohistmc.com/api/1.12.2/latest/download` or `wget https://mohistmc.com/api/1.16.5/latest/download`
 
 Install
