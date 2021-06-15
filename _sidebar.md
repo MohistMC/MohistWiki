@@ -7,8 +7,10 @@
   - 1.12.2
     - [mohist.yml](config/mohist-yml-1.12.2.md)
   - 1.16.5
-    - [mohist.yml]()
+    - [mohist.yml](config/mohist-yml-1.16.5.md)
 - Developer
-  - [Build](developer/build.md)
+  - Build
+    - [1.12.2](developer/build-1.12.2.md)
+    - [1.16.5](developer/build-1.16.5.md)
   - [Dependencies](developer/dependencies.md)
   - [JavaDocs](developer/javadocs.md)
