@@ -3,6 +3,17 @@
 Welcome to MohistMC wiki ! Here you can have some information about Mohist and how to configure it.
 > This page is being improved, and you can also participate in writing !
 
+Mohist is a Forge server software implementing Bukkit, Spigot and Paper APIs. This project is to make **mods and plugins usable together**. Currently Mohist is available in 3 versions.
+
+#### 1.12.2
+- This version is still supported an receive updates.
+
+#### 1.16.5
+- This version is highly supported and is our priority right now.
+
+#### 1.7.10
+- This version is unsupported, you should use CrucibleMC, UraniumMC or Thermos instead.
+
 ## Requirements
 
 ### Mohist 1.12.2 :

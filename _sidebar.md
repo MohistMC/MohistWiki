@@ -14,3 +14,7 @@
     - [1.16.5](developer/build-1.16.5.md)
   - [Dependencies](developer/dependencies.md)
   - [JavaDocs](developer/javadocs.md)
+- Questions
+  - [Fabric Support](questions/fabric.md)
+  - [Forge Support](questions/forge.md)
+  - [Bukkit, Spigot and Paper Support](questions/bukkitspigotpaper.md)
