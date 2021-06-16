@@ -254,6 +254,7 @@ main.hidden {
 	transition: transform .25s ease-out;
 	width: 300px;
 	z-index: 20;
+    box-shadow: #181a1c 2px 2px 10px;
 }
 
 .sidebar>h1 {
@@ -356,7 +357,6 @@ body.sticky .sidebar-toggle {
     overflow-y: scroll;
     scrollbar-color: #3e4145 #181a1c;
     scrollbar-width: thin;
-    box-shadow: #181a1c 5px 5px 5px;
 }
 
 .content {
@@ -479,7 +479,8 @@ body.sticky .sidebar-toggle {
 }
 
 body.close .sidebar {
-	transform: translateX(-300px)
+	transform: translateX(-300px);
+    box-shadow: none;
 }
 
 body.close .sidebar-toggle {
