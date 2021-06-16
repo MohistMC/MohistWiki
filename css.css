@@ -330,8 +330,7 @@ main.hidden {
 }
 
 .sidebar-toggle {
-	background-color: transparent;
-	background-color: hsla(0, 0%, 100%, .8);
+	background-color: #2c2f33;
 	border: 0;
 	outline: none;
 	padding: 10px;
@@ -340,7 +339,7 @@ main.hidden {
 	left: 0;
 	text-align: center;
 	transition: opacity .3s;
-	width: 284px;
+	width: 291px;
 	z-index: 30;
 	cursor: pointer
 }
@@ -536,7 +535,6 @@ body.close .content {
 		transform: translateX(300px)
 	}
 	body.close .sidebar-toggle {
-		background-color: #2c2f33;
 		transition: background-color 1s;
 		width: 100%;
 		padding: 10px;
