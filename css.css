@@ -107,15 +107,9 @@ li input[type=checkbox] {
 }
 
 .app-nav {
-	margin: 25px 60px 0 0;
-	position: absolute;
-	right: 0;
 	text-align: right;
-	z-index: 10
-}
-
-.app-nav.no-badge {
-	margin-right: 25px
+    background: #1d1f21;
+    width: 100%;
 }
 
 .app-nav p {
@@ -131,7 +125,7 @@ li input[type=checkbox] {
 .app-nav ul {
 	display: inline-block;
 	list-style: none;
-	margin: 0
+	margin-left: 5px;
 }
 
 .app-nav a {
@@ -141,7 +135,6 @@ li input[type=checkbox] {
 	transition: color .3s;
     font-weight: 400;
     letter-spacing: 0.021em;
-    margin-right: 10px;
     text-transform: uppercase;
 }
 
@@ -390,14 +383,23 @@ body.sticky .sidebar-toggle {
 	margin-top: 0!important
 }
 
+.search {
+    border-bottom: 1px solid grey !important;
+}
+
+.search input {
+    border: 1px solid gray !important;
+    border-radius: 5px;
+}
+
 .markdown-section hr {
 	border: none;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid grey;
 	margin: 2em 0
 }
 
 .markdown-section iframe {
-	border: 1px solid #eee;
+	border: 1px solid grey;
 	width: 1px;
 	min-width: 100%
 }
@@ -501,9 +503,7 @@ body.close .content {
 	.sidebar-toggle {
 		position: fixed
 	}
-	.app-nav {
-		margin-top: 16px
-	}
+	
 	.app-nav li ul {
 		top: 30px
 	}
@@ -535,6 +535,7 @@ body.close .content {
 		transform: translateX(300px)
 	}
 	body.close .sidebar-toggle {
+        background-color: #2c2f33;
 		transition: background-color 1s;
 		width: 100%;
 		padding: 10px;
