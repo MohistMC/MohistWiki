@@ -1,7 +1,7 @@
 ## Fabric Support
 ---
 
-### What about Fabric with Mohist ?
+### What about Fabric mods with Mohist ?
 
 * Unfortunately, we don't support Fabric and we don't plan to do it.    
 
