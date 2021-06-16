@@ -110,6 +110,7 @@ li input[type=checkbox] {
 	text-align: right;
     background: #1d1f21;
     width: 100%;
+    box-shadow: 1px 1px 8px #1d1f21;
 }
 
 .app-nav p {
