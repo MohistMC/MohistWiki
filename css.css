@@ -505,7 +505,7 @@ body.close .content {
 	}
 	
 	.app-nav li ul {
-		top: 30px
+		top: 30px;
 	}
 	main {
 		height: auto;
@@ -799,7 +799,8 @@ body {
 .markdown-section p,
 .markdown-section ul {
 	line-height: 1.6rem;
-	word-spacing: .05rem
+	word-spacing: .05rem;
+    color: #dbdbdb;
 }
 
 .markdown-section ol,
