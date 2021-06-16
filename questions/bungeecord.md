@@ -3,7 +3,7 @@
 
 ### How to use Bungeecord with Mohist ?
 
-⚠️ **Disclaimer : All known proxy still don't support 1.13+ forge servers, Lightfall is still in BETA and will likely don't work with every mods.** ⚠️
+⚠️ **Disclaimer : All known proxy still don't support 1.13+ forge servers, Lightfall is still in BETA and will likely don't work with every mods.**
 
 Recommended proxy softwares for Mohist 1.12.2:
 
