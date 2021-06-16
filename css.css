@@ -254,7 +254,7 @@ main.hidden {
 	transition: transform .25s ease-out;
 	width: 300px;
 	z-index: 20;
-    box-shadow: #181a1c 2px 2px 10px;
+    box-shadow: #181a1c 2px 2px 10px !important;
 }
 
 .sidebar>h1 {
@@ -334,7 +334,7 @@ main.hidden {
 	left: 0;
 	text-align: center;
 	transition: opacity .3s;
-	width: 291px;
+	width: 300px;
 	z-index: 30;
 	cursor: pointer
 }
@@ -354,7 +354,6 @@ main.hidden {
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
 	position: fixed;
-    overflow-y: scroll;
     scrollbar-color: #3e4145 #181a1c;
     scrollbar-width: thin;
 }
@@ -480,7 +479,6 @@ body.sticky .sidebar-toggle {
 
 body.close .sidebar {
 	transform: translateX(-300px);
-    box-shadow: none;
 }
 
 body.close .sidebar-toggle {
