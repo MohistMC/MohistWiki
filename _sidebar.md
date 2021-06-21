@@ -19,4 +19,7 @@
   - [Fabric Support](questions/fabric.md)
   - [Bukkit, Spigot and Paper Support](questions/bukkitspigotpaper.md)
   - [Sponge Support](questions/sponge.md)
-  - [Bungeecord Support](questions/bungeecord.md)
+  - [Geyser Support](questions/geysermc.md)
+- Tutorials
+  - [Bungeecord Installation](tutorials/bungeecord.md)
+  - [Update Mohist](tutorials/update.md)
