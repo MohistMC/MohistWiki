@@ -1,5 +1,6 @@
-- Install
+- About
   - [Mohist]()
+- Install
   - [Windows installation](install/windows.md)
   - [Linux installation](install/linux.md)
   - [Common problem](install/problem.md)
@@ -23,3 +24,4 @@
 - Tutorials
   - [Bungeecord Installation](tutorials/bungeecord.md)
   - [Update Mohist](tutorials/update.md)
+  - [Customize libraries](tutorials/customizelibraries.md)
