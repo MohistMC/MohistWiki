@@ -9,11 +9,11 @@
   - 1.16.5
     - [mohist.yml](config/mohist-yml-1.16.5.md)
 - Developer
-  - Build
-    - [1.12.2](developer/build-1.12.2.md)
-    - [1.16.5](developer/build-1.16.5.md)
+  - [Setup](developer/setup.md)
+  - [Build](developer/build.md)
   - [Dependencies](developer/dependencies.md)
   - [JavaDocs](developer/javadocs.md)
+  - [Run in IDE](developer/run-mohist-in-ide.md)
 - Questions
   - [Forge Support](questions/forge.md)
   - [Fabric Support](questions/fabric.md)
