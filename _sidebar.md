@@ -3,7 +3,6 @@
 - Install
   - [Windows installation](install/windows.md)
   - [Linux installation](install/linux.md)
-  - [Common problem](install/problem.md)
 - Configuration
   - 1.12.2
     - [mohist.yml](config/mohist-yml-1.12.2.md)
@@ -16,6 +15,10 @@
   - [Dependencies](developer/dependencies.md)
   - [JavaDocs](developer/javadocs.md)
   - [Run in IDE](developer/run-mohist-in-ide.md)
+- Problems & Analytics
+  - [Common problem](install/problem.md)
+  - [I have a bug](questions/problem.md)
+  - [Search for mod/plugin issue](questions/modplissue.md)
 - Questions
   - [Forge Support](questions/forge.md)
   - [Fabric Support](questions/fabric.md)
