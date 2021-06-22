@@ -693,12 +693,12 @@ section.cover .cover-main>p:last-child a:hover {
 }
 
 section.cover blockquote>p>a {
-	border-bottom: 2px solid var(--theme-color, #00a318);
+	border-bottom: 2px solid var(--theme-color, #ED4245);
 	transition: color .3s
 }
 
 section.cover blockquote>p>a:hover {
-	color: var(--theme-color, #00a318)
+	color: var(--theme-color, #ED4245)
 }
 
 .sidebar,
@@ -810,7 +810,7 @@ body {
 }
 
 .markdown-section blockquote {
-	border-left: 4px solid var(--theme-color, #00a318);
+	border-left: 4px solid var(--theme-color, #ED4245);
 	color: #c9c9c9;
 	margin: 2em 0;
 	padding-left: 20px
@@ -861,7 +861,7 @@ body {
 
 .markdown-section code {
 	border-radius: 2px;
-	color: #e96900;
+	color: #2495c1;
 	margin: 0 2px;
 	padding: 3px 5px;
 	white-space: pre-wrap
@@ -980,7 +980,7 @@ body {
 
 .token.function,
 .token.keyword {
-	color: #e96900
+	color: #2495c1
 }
 
 .token.atrule,
