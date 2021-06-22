@@ -12,4 +12,5 @@ To run your server in your IDE **without compiling**, execute **this gradle task
     `./gradlew genIntellijRuns`
 
 When it's done, you can start your server running this:
+
 ![](https://cdn.discordapp.com/attachments/847205896235778058/856915908739596299/unknown.png)
