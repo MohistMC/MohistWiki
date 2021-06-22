@@ -9,7 +9,7 @@
     - [mohist.yml](config/mohist-yml-1.12.2.md)
   - 1.16.5
   - [mohist.yml](config/mohist-yml-1.16.5.md)
-  [Commands](config/commands.md)
+  - [Commands](config/commands.md)
 - Developer
   - [Setup](developer/setup.md)
   - [Build](developer/build.md)
