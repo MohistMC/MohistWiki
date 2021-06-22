@@ -84,3 +84,10 @@
     Argument `update`: Update the mod list automatically in mohist.yml with server mods
 
     This command is a feature from `mohist.yml` which enables to you to only allow certain mods on your server. When the `enable` argument is specified, the list will be automatically filled with server mod list. You can manually edit the allow mod list in the `mohist.yml` file.
+    
+---
+
+* `/updatemohist`    
+    Permission: *mohist.command.updatemohist*
+
+    This command is a feature from `mohist.yml` which enables to you to update Mohist at startup if needed. When you execute this command, it will enable or disable the updater download.
