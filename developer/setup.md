@@ -9,7 +9,7 @@
     ```
   * 1.16.5:  
     ```bash
-    git clone https://github.com/MohistMC/Mohist.git -b 1.12.2
+    git clone https://github.com/MohistMC/Mohist.git -b 1.16.5
     ```
 * Setup
   * Setup with Linux:  
