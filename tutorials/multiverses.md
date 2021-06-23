@@ -13,6 +13,7 @@
 
 <details>
   <summary>main options</summary>
+  
     - "dim" : Should be the same than the dimension ID.
   
     - "load_on_start" : set it to true if you want your dimension to be loaded at the start of your server (should be always enabled to not cause issues with plugins).
