@@ -9,7 +9,7 @@
 
 * Start your server and stop it after it completely loaded to generate the config file.
 
-* To create a new simple world you can use [this preset (dimensions.json)](https://cdn.discordapp.com/attachments/815331146303799296/825439539438157904/dimensions.json), download it and put it inside "config/justenoughdimensions" and then use /tpj 2 to teleport to this world. To create other worlds use the same synthax than the preset and change the dimension ID (You can't have the same dimension ID for more than one dimension).
+* To create a new simple world you can use [this preset (dimensions.json)](https://cdn.discordapp.com/attachments/815331146303799296/825439539438157904/dimensions.json), download it and put it inside "config/justenoughdimensions" and then use /tpj 2 to teleport to this world. To create other worlds use the same syntax than the preset and change the dimension ID (You can't have the same dimension ID for more than one dimension).
 
 <details>
   <summary>Main options</summary>
