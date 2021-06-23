@@ -14,11 +14,17 @@
 <details>
   <summary>main options</summary>
     - "dim" : Should be the same than the dimension ID.
+  
     - "load_on_start" : set it to true if you want your dimension to be loaded at the start of your server (should be always enabled to not cause issues with plugins).
+  
     - "keeploaded" :  set it to false if you want your dimension to be unloaded if there is no players inside.
+  
     - "id" : This is the dimension ID  (Remember that you can't have the same dimension ID for more than one dimension).
+  
     - "name" : The name of the dimension (only used by forge mods.)
+  
     - "worldprovider" : Type of the dimension ("WorldProviderSurface" for an overworld type world, WorldProviderHell  for a nether type world and WorldProviderEnd for a end type world. you can also use worldproviders from mods if you know them !)
+  
     - "require_exact_match" : should be always present and set to true.
     
 There is other settings that you can set, you can see them in the mod's curseforge page.
