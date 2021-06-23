@@ -29,3 +29,4 @@
   - [Bungeecord Installation](tutorials/bungeecord.md)
   - [Update Mohist](tutorials/update.md)
   - [Customize libraries](tutorials/customizelibraries.md)
+  - [Multiverses alternatives](tutorials/multiverses.md)
