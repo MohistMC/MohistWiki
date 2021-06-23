@@ -20,7 +20,8 @@
         - "name" : The name of the dimension (only used by forge mods.)
         - "worldprovider" : Type of the dimension ("WorldProviderSurface" for an overworld type world, WorldProviderHell  for a nether type world and WorldProviderEnd for a end type world. you can also use worldproviders from mods if you know them !)
         - "require_exact_match" : should be always present and set to true.
-    There is other settings that you can set, you can see them in the mod's curseforge page.
+    
+There is other settings that you can set, you can see them in the mod's curseforge page.
 
 <details>
   <summary>Preset file</summary>
@@ -35,7 +36,7 @@
     [
         {
             "dim": 2,
-			"load_on_start": true,
+            "load_on_start": true,
             "dimensiontype": {
                 "id": 2,
                 "name": "AltWorld",
@@ -48,7 +49,8 @@
 }
 ```
 </details>
-    
+
+
 ### -> Steps to create new worlds in 1.16.5: 
 
 * Download [this datapack](https://cdn.discordapp.com/attachments/615256015704948808/850816329636380752/multiworld.zip) and extract it in world/datapacks folder.
