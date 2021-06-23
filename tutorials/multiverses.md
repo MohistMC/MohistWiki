@@ -23,17 +23,9 @@
     There is other settings that you can set, you can see them in the mod's curseforge page.
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Preset file</summary>
   
-  ```javascript
-    function whatIsLove() {
-      console.log('Baby Don't hurt me. Don't hurt me');
-      return 'No more';
-    }
-  ```
-</details>
-Preset file:
-```
+```yaml
 {
   "config_version": {
     "id": "__default",
@@ -55,6 +47,8 @@ Preset file:
     ]
 }
 ```
+  ```
+</details>
     
 ### -> Steps to create new worlds in 1.16.5: 
 
