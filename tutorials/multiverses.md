@@ -32,7 +32,7 @@ There is other settings that you can set, you can see them in the mod's cursefor
 </details>
 
 <details>
-  <summary>Preset file</summary>
+  <summary>Preset Json</summary>
   
 ```json
 {
@@ -57,8 +57,6 @@ There is other settings that you can set, you can see them in the mod's cursefor
 }
 ```
 </details>
-
-
 
 ### -> Steps to create new worlds in 1.16.5: 
 
