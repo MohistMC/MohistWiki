@@ -10,8 +10,10 @@
 * Start your server and stop it after it completely loaded to generate config file.
 
 * To create a new simple world you can use [this preset (dimensions.json)](https://cdn.discordapp.com/attachments/815331146303799296/825439539438157904/dimensions.json), download it and put it inside "config/justenoughdimensions" and then use /tpj 2 to teleport to this world. To create other worlds use the same synthax than the preset and change the dimension ID (You can't have the same dimension ID for more than one dimension).
+    
     The main options are :
-        - "dim" : Should be the same than the dimension ID.
+        
+	- "dim" : Should be the same than the dimension ID.
         - "load_on_start" : set it to true if you want your dimension to be loaded at the start of your server (should be always enabled to not cause issues with plugins).
         - "keeploaded" :  set it to false if you want your dimension to be unloaded if there is no players inside.
         - "id" : This is the dimension ID  (Remember that you can't have the same dimension ID for more than one dimension).
@@ -19,7 +21,17 @@
         - "worldprovider" : Type of the dimension ("WorldProviderSurface" for an overworld type world, WorldProviderHell  for a nether type world and WorldProviderEnd for a end type world. you can also use worldproviders from mods if you know them !)
         - "require_exact_match" : should be always present and set to true.
     There is other settings that you can set, you can see them in the mod's curseforge page.
-    
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```javascript
+    function whatIsLove() {
+      console.log('Baby Don't hurt me. Don't hurt me');
+      return 'No more';
+    }
+  ```
+</details>
 Preset file:
 ```
 {
