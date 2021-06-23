@@ -47,7 +47,6 @@
     ]
 }
 ```
-  ```
 </details>
     
 ### -> Steps to create new worlds in 1.16.5: 
