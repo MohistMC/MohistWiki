@@ -5,6 +5,16 @@
 
 ### Steps
 * Build Mohist
+  ### Building
+  * **1.7.10**:
+    * Build with Linux:  
+      `git clone -b 1.7.10 https://github.com/MohistMC/Mohist.git`  
+      `git submodule update --init --recursive`  
+      `bash gradlew setupCauldron launch4j`
+    * Build with Windows:  
+      `git clone -b 1.7.10 https://github.com/MohistMC/Mohist.git`  
+      `git submodule update --init --recursive`  
+      `gradlew.bat setupCauldron launch4j`
   * **1.12.2**:
     * Build with Linux:  
       `bash gradlew setup installerJar`
