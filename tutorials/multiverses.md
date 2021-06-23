@@ -34,7 +34,7 @@ There is other settings that you can set, you can see them in the mod's cursefor
 <details>
   <summary>Preset file</summary>
   
-```yaml
+```json
 {
   "config_version": {
     "id": "__default",
@@ -59,6 +59,7 @@ There is other settings that you can set, you can see them in the mod's cursefor
 </details>
 
 
+
 ### -> Steps to create new worlds in 1.16.5: 
 
 * Download [this datapack](https://cdn.discordapp.com/attachments/615256015704948808/850816329636380752/multiworld.zip) and extract it in world/datapacks folder.
@@ -66,3 +67,23 @@ There is other settings that you can set, you can see them in the mod's cursefor
 * Start your server and use the command /execute in multiworld:altworld-1 run tp ~ ~ ~ to teleport yourself in the new world (work also with plugins commands).
 
 * If you need more world, you need to copy and paste the .json inside world/datapacks/multiworld/data/multiworld/dimension and rename it (eg: altworld-3.json).
+
+<details>
+  <summary>Datapack Json</summary>
+  
+```json
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "biome_source": {
+      "type": "minecraft:vanilla_layered",
+      "seed": 0,
+      "large_biomes": false
+    },
+    "settings": "minecraft:overworld"
+  }
+}
+```
+</details>
