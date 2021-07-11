@@ -35,15 +35,16 @@ The file path `*/mohist-config/mohist.yml`
     #: Optimize explosions, a feature comes from paper. Set `true` to enable, `false` to disable
 
   - `prevent_from_entering_unloaded_chunks: true`   
-    #: Set `true` to enable, `false` to disable
+    #: `true` doesn't allow a player to enter a chunk which is being generated/loaded (chunk is not ready). `false` doesn't check for this (not recommended, can cause cascading lag if player continues to traverse into unloaded territory).
 
   - `forge_ignore_optional_mods_version_check: false`   
     #: Ignore forge mods version check. Can be useful if a compatibility of a mod isn't detected correctly. Set `true` to enable, `false` to disable
 
   - `ignore_empty_time: all_worlds`   
-    #:
+    #: This option forces to always run some additional chunk logic (so that chunkloaders could continue working, for example), even if no players are in target world. `all_worlds` for all loaded worlds (recommended), `world name` for specific world.
+
   - `chunk_unload_delay: 5`   
-    #:
+    #: 5 here is inactivity period (in seconds) before chunk unload. 5 seconds is the best option, 10 seconds if you wanna be ultra-safe.
 
 * `forge`   
   #: Forge related options
