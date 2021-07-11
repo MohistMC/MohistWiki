@@ -12,7 +12,7 @@
 - Developer
   - [Setup](developer/setup.md)
   - [Build](developer/build.md)
-  - [Generate patches](developer/build.md)
+  - [Generate patches](developer/patches.md)
   - [Dependencies](developer/dependencies.md)
   - [JavaDocs](developer/javadocs.md)
   - [Run in IDE](developer/run-mohist-in-ide.md)
