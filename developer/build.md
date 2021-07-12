@@ -1,20 +1,20 @@
 ## Mohist Build
 ---
 
-> **Before starting, be sure you followed the [setup tutorial](./setup.md).**
+> **Before starting, be sure you followed the [setup tutorial](setup.md).**
 
 ### Steps for building
-* **1.7.10**:
+* **1.7.10**
   * Build with Linux:  
     `bash gradlew setupCauldron launch4j`
   * Build with Windows:    
     `gradlew.bat setupCauldron launch4j`
-* **1.12.2**:
+* **1.12.2**
   * Build with Linux:  
     `bash gradlew setup installerJar`
   * Build with Windows:  
     `gradlew.bat setup installerJar`
-* **1.16.5**:
+* **1.16.5**
   * Build with Linux:  
     `bash gradlew setup mohistJar`
   * Build with Windows:  
