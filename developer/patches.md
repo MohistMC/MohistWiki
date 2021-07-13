@@ -1,7 +1,7 @@
 ## Generate patches
 ---
 
-> **Before starting, be sure you followed the [setup tutorial](setup.md).**
+> **Before starting, be sure you followed the [setup tutorial](developer/setup.md).**
 
 ### Steps
 * Generate patches
