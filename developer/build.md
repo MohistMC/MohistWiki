@@ -1,7 +1,7 @@
 ## Mohist Build
 ---
 
-> **Before starting, be sure you followed the [setup tutorial](setup.md).**
+> **Before starting, be sure you followed the [setup tutorial](developer/setup.md).**
 
 ### Steps for building
 * **1.7.10**
