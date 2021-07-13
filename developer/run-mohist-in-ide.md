@@ -1,7 +1,7 @@
 ## How to run Mohist in your IDE ?
 ---
 
-* Be sure your project has been [setup](./setup.md).
+> **Before starting, be sure you followed the [setup tutorial](developer/setup.md).**
 
 ### 1.16.5
 
