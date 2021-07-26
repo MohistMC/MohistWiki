@@ -11,7 +11,7 @@ Mohist is a Forge server software implementing Bukkit, Spigot and Paper APIs. Th
 
 #### 1.16.5
 - This version is highly supported and is our priority right now.
-> This version have Forge 36.1.32 (latest)
+> This version have Forge 36.2 (latest)
 
 #### 1.7.10
 - This version is unsupported, you should use CrucibleMC, UraniumMC or Thermos instead.
@@ -22,7 +22,7 @@ Mohist is a Forge server software implementing Bukkit, Spigot and Paper APIs. Th
 You need **java 8**.
 
 ### Mohist 1.16.5 :
-You need a java version up to **java 11** and **before java 16**.
+You need a java version between **java 11** and **java 15**.
 
 ## About Mohist
 
