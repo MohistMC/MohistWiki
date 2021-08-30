@@ -6,7 +6,7 @@ Requirements
 
 Mohist **1.12.2** requires **[Java 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)**.
 
-Mohist **1.16.5** requires **[Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)**.
+Mohist **1.16.5** requires Java between **[Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)** and  **[Java 16](https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot)** (**Java 11** stay recommanded).
 
 ---
 Download
