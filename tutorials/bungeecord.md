@@ -55,6 +55,6 @@ servers:
     restricted: false
 ```
 
-⚠️ **FOR 1.16.5 USERS:** Players need to download [Lightfall-client](https://cdn.discordapp.com/attachments/847205896235778058/882000006666670130/lightfallclient-1.0.0.jar) to be able to join if your server require client side mods. 
+⚠️ **FOR 1.16.5 USERS:** Players need to download [Lightfall-client](https://cdn.discordapp.com/attachments/847205896235778058/882000006666670130/lightfallclient-1.0.0.jar) to be able to join if your server require client side mods. [source code](https://github.com/ArclightPowered/lightfall-client)
 
 * Now you can start your proxy and all your Mohist servers!
