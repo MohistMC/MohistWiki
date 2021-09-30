@@ -3,12 +3,12 @@
 
 ### How to use Bungeecord with Mohist ?
 
-⚠️ **Disclaimer : All known proxy still don't support 1.13+ forge servers, Lightfall is still in BETA and will likely don't work with every mods.**
+⚠️ **Disclaimer : You need to use Lightfall for 1.13+ forge servers, but remember that Lightfall is still in BETA and will likely don't work with every mods.**
 
-Recommended proxy softwares for Mohist 1.12.2:
+Recommended proxy softwares for Mohist:
 
-- Waterfall (for Mohist 1.12.2) : https://papermc.io/downloads#Waterfall
-- Lightfall (for Mohist 1.16.5) : https://github.com/ArclightPowered/lightfall
+- [Waterfall](https://papermc.io/downloads#Waterfall) (for Mohist 1.12.2)
+- [Lightfall](https://github.com/ArclightPowered/lightfall) (for Mohist 1.16.5)
 
 * GeyserMC can't work with Mohist since Minecraft Windows 10 edition can't use forge and mods.
 
@@ -54,4 +54,7 @@ servers:
     address: localhost:25566 //use the port of your "lobby" server
     restricted: false
 ```
+
+⚠️ **FOR 1.16.5 USERS:** Players need to download [Lightfall-client](https://cdn.discordapp.com/attachments/847205896235778058/882000006666670130/lightfallclient-1.0.0.jar) to be able to join if your server require client side mods. 
+
 * Now you can start your proxy and all your Mohist servers!
