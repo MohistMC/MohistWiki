@@ -16,6 +16,9 @@ The file path `*/mohist-config/mohist.yml`
   - `check_libraries: true`   
     #: Enabling / Disabling libraries checker. Set `true` to enable, `false` to disable
 
+  - `libraries_downloadsource: MOHIST`   
+    #: Provide 3 options: MOHIST, CHINA, GITHUB
+
   - `disable_mods_blacklist: false`   
     #: Turn off mods blacklist detection, most of them are incompatible or mods that have been implemented inside mohist. Set `true` to enable, `false` to disable
 
