@@ -4,9 +4,11 @@
 Requirements
 ---
 
-Mohist **1.12.2** requires **[Java 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)**.
+Mohist **1.12.2** requires **[Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)**.
 
-Mohist **1.16.5** requires Java between **[Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)** and  **[Java 16](https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot)** (**Java 11** stay recommanded).
+Mohist **1.16.5** requires Java between **[Java 11](https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot)** and  **[Java 16](https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot)** (**Java 11** stay recommended).
+
+Mohist **1.18.X** requires **[Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot)** and above (**Java 17** stay recommended).
 
 ---
 Download
@@ -25,11 +27,32 @@ Example :
     ```bash
     wget https://mohistmc.com/api/1.16.5/latest/download
     ```
+* 1.18.X:
+    ```bash
+    wget https://mohistmc.com/api/1.18-testing/latest/download
+    ```
     
 ---
 Install
 ---
 
+### 1.18 Installation
+
+When you downloaded the jar file, place it in **an empty directory**.
+
+The 1.18.X installation is different from others, because it comes with an installer.       
+
+Now run the installer using the `java` command:
+```bash
+java -jar mohist-<mcversion>-<buildnumber>-installer.jar --installServer
+```
+
+When the installation is finished, you can run your server using this command:
+```bash
+./run.sh
+```
+
+### Others
 When you downloaded the jar file, place it in **an empty directory**.
 
 Now launch it using the `java` command:

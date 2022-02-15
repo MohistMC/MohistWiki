@@ -4,9 +4,11 @@
 Requirements
 ---
 
-Mohist **1.12.2** requires **[Java 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)**.
+Mohist **1.12.2** requires **[Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)**.
 
-Mohist **1.16.5** requires Java between **[Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)** and  **[Java 16](https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot)** (**Java 11** stay recommanded).
+Mohist **1.16.5** requires Java between **[Java 11](https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot)** and  **[Java 16](https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot)** (**Java 11** stay recommended).
+
+Mohist **1.18.X** requires **[Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot)** and above (**Java 17** stay recommended).
 
 ---
 Download
@@ -16,6 +18,17 @@ You can download the latest version from our [Website](https://mohistmc.com/down
 
 Install
 ---
+
+###1.18.X installation
+
+The 1.18.X installation is different from others, because it comes with an installer.
+
+When you downloaded the Mohist 1.18 jar file, place it in a folder, double click on it, select install server, then select the current folder path above Ok button, and click Ok.
+The server is being installed.  
+
+When it's done, you can run your server by opening a terminal and executing run.bat.
+
+###Others
 
 When you downloaded the jar file, place it in **an empty directory**.
 
