@@ -1,6 +1,8 @@
 - About
   - [Mohist]()
+  - [Versions](about/versions.md)
 - Install
+  - [Requirements](install/requirements.md)
   - [Windows installation](install/windows.md)
   - [Linux installation](install/linux.md)
 - Configuration
