@@ -28,7 +28,7 @@ connection-throttle: -1
 ```java
 online-mode=false //if you still want a premium only server you can set it inside of the waterfall's config file later
 ```
-If you are trying to setup a proxy in local you also need to change the "server-port" value in __server.properties__ -> set "server-port=25566" for exemple 
+If you are trying to setup a proxy in local you also need to change the "server-port" value in __server.properties__ -> set "server-port=25566" for example 
 (If you have more than one server, *you should have more than one server if you are running a proxy*, don't set the same value here for every servers.)
 
 * Now, create a new folder for your Waterfall proxy, and launch it using this java command:
