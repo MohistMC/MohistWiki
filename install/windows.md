@@ -15,7 +15,7 @@ You can download the latest version from our [Website](https://mohistmc.com/down
 Install
 ---
 
-###1.18.X installation
+### 1.18.X installation
 
 The 1.18.X installation is different from others, because it comes with an installer.
 
@@ -24,7 +24,7 @@ The server is being installed.
 
 When it's done, you can run your server by opening a terminal and executing run.bat.
 
-###Others
+### Others
 
 When you downloaded the jar file, place it in **an empty directory**.
 
