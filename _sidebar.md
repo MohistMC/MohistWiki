@@ -1,6 +1,7 @@
 - About
   - [Mohist]()
   - [Versions](about/versions.md)
+  - [End of life versions](about/end-of-life.md)
 - Install
   - [Requirements](install/requirements.md)
   - [Windows installation](install/windows.md)
