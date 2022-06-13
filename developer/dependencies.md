@@ -9,7 +9,7 @@
  }
 
 dependencies {
-    compile 'com.mohistmc:mohistdev:0.1-SNAPSHOT'
+    implementation 'com.mohistmc:mohistdev:0.1-SNAPSHOT'
 }
 ```
 
@@ -20,6 +20,6 @@ dependencies {
  }
 
 dependencies {
-    compile 'com.mohistmc:mohistdev:1.16.5-0.1'
+    implementation 'com.mohistmc:mohistdev:1.16.5-0.1'
 }
 ```
