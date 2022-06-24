@@ -1,9 +1,9 @@
 # MohistMC - Wiki
 
-Welcome to MohistMC wiki ! Here you can have some information about Mohist and how to configure it.
-> This page is being improved, and you can also participate in writing !
+Welcome to MohistMC wiki! Here you can find some information about Mohist and how to configure it.
+> This page is being improved, and you can also participate in writing!
 
-Mohist is a Forge server software implementing Bukkit, Spigot and Paper APIs. This project is to make **mods and plugins usable together**. Currently Mohist is available in 3 versions (1.7.10, 1.12.2, 1.16.5).
+Mohist is a Forge server software implementing the Bukkit, Spigot and Paper APIs. This project has been made in order to make **mods and plugins usable together**. Currently Mohist is available in 3 versions (1.7.10, 1.12.2, 1.16.5).
 
 ## About Mohist
 More versions will be available in the future.
@@ -19,4 +19,4 @@ If you want to contribute to the main project, which is Mohist, you can make a p
 Please make sure to test if everything is fine before opening a pull request :D
 
 ## About the wiki
-The wiki is free and open source on github. Feel free to contribute ! :D
+The wiki is free and open source on github. Feel free to contribute! :D
