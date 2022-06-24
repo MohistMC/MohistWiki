@@ -1,7 +1,7 @@
 ## Sponge Support
 ---
 
-### What about Sponge plugins with Mohist ?
+### What about Sponge plugins with Mohist?
 
 * Unfortunately, we don't support Sponge and we don't plan to do it.    
 
