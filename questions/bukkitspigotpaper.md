@@ -1,7 +1,7 @@
 ## Bukkit, Spigot and Paper Support
 ---
 
-### What about these APIs with Mohist ?
+### What about these APIs with Mohist?
 
 * We use all of these APIs in Mohist.    
 
