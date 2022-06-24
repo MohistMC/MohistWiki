@@ -4,7 +4,7 @@
 Requirements
 ---
 
-See [requirements page](install/requirements.md)
+Please read the [requirements page](install/requirements.md) before reading this page.
 
 ---
 Download
@@ -32,11 +32,11 @@ Example :
 Install
 ---
 
-### 1.18 Installation
+### 1.19 Installation
 
 When you downloaded the jar file, place it in **an empty directory**.
 
-The 1.18.X installation is different from others, because it comes with an installer.       
+The 1.19.X installation is different from others, because it comes with an installer.       
 
 Now run the installer using the `java` command:
 ```bash
