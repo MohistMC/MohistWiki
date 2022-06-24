@@ -4,7 +4,7 @@
 Requirements
 ---
 
-See [requirements page](install/requirements.md)
+Please read the [requirements page](install/requirements.md) before reading this page.
 
 ---
 Download
@@ -15,11 +15,11 @@ You can download the latest version from our [Website](https://mohistmc.com/down
 Install
 ---
 
-### 1.18.X installation
+### 1.19.X installation
 
-The 1.18.X installation is different from others, because it comes with an installer.
+The 1.19.X installation is different from others, because it comes with an installer.
 
-When you downloaded the Mohist 1.18 jar file, place it in a folder, double click on it, select install server, then select the current folder path above Ok button, and click Ok.
+When you downloaded the Mohist 1.19 jar file, place it in a folder, double click on it, select install server, then select the current folder path above Ok button, and click Ok.
 The server is being installed.  
 
 When it's done, you can run your server by opening a terminal and executing run.bat.
