@@ -1,7 +1,7 @@
 ## Forge Support
 ---
 
-### What about Forge with Mohist ?
+### What about Forge with Mohist?
 
 * Mohist is built on top of Forge.    
 
