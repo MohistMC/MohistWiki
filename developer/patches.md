@@ -10,4 +10,4 @@
   * **Windows**      
      `gradlew.bat genPatches`
 
-When it's done, you can go and have a cup of tea, it can take a long time (allow up to 5 minutes).
+After entering the command, you can go and have a cup of tea, it can take a long time (allow up to 5 minutes).

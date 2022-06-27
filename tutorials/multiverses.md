@@ -1,7 +1,7 @@
 ## How to have multiple worlds with Mohist?
 ---
 
-⚠️ **Disclaimer: To have multiple worlds with Mohist you can't use Multiverses or plugin alternatives since they can't work well with forge and mods.**
+⚠️ **Disclaimer: To have multiple worlds with Mohist you can't use Multiverse or other plugin alternatives since they don't work well with forge and mods.**
 
 ### -> Steps to create new worlds in 1.12.2: 
 
@@ -58,7 +58,7 @@ There is other settings that you can set, you can see them in the mod's cursefor
 ```
 </details>
 
-### -> Steps to create new worlds in 1.16.5: 
+### -> Steps to create new worlds in 1.16.5+: 
 
 * Download [this datapack](https://cdn.discordapp.com/attachments/615256015704948808/850816329636380752/multiworld.zip) and extract it in world/datapacks folder.
 
