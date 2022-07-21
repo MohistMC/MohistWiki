@@ -13,6 +13,7 @@
     - [mohist.yml](config/mohist-yml-1.16.5.md)
   - [Commands](config/commands.md)
 - Developer
+  - [Website API](developer/website-api.md)
   - [Setup](developer/setup.md)
   - [Build](developer/build.md)
   - [Generate patches](developer/patches.md)
