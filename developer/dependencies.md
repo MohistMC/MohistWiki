@@ -5,7 +5,10 @@
 ### 1.12.2
 ```
  repositories {
-    maven {url "https://maven.mohistmc.com/"}
+    maven { url "https://maven.mohistmc.com/"}
+    maven { url 'https://hub.spigotmc.org/nexus/content/groups/public/' }
+    maven { url 'https://libraries.minecraft.net/' }
+    maven { url 'https://maven.minecraftforge.net/' }
  }
 
 dependencies {
