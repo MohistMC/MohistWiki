@@ -17,15 +17,15 @@ How to use **Waterfall** and **Lightfall**:
 * In your Mohist server folder, after you have already ran it at least once, change these configs:
 
 -> __spigot.yml__
-```java
+```
 bungeecord: true
 ```
 -> __bukkit.yml__
-```java
+```
 connection-throttle: -1
 ```
 -> __server.properties__
-```java
+```
 online-mode=false //if you still want a premium only server you can set it inside of the waterfall's config file later
 ```
 If you are trying to setup a proxy in local network you also need to change the "server-port" value in __server.properties__ -> set "server-port=25566" for example 
@@ -33,7 +33,7 @@ If you are trying to setup a proxy in local network you also need to change the 
 
 * Now, create a new folder for your Waterfall proxy, and launch it using this java command:
 
-```java
+```
 java -jar <waterfall jar name>.jar
 ```
 * Then after the proxy is fully started, type "**end**" in the console to close your proxy.
@@ -41,13 +41,13 @@ java -jar <waterfall jar name>.jar
 * Now you need to change the __config.yml__ inside of your Waterfall folder:
 
 -> __config.yml__
-```java
+```
 query_port: 25565 //keep the port of your hosting service if you are not in local
 ip_forward: true
 online_mode: true //or false if you want to enable cracked client
 forge_support: true
 ```
-```java
+```
 servers:
   lobby:
     motd: '&1My Mohist server - Lobby'
