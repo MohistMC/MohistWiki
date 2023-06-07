@@ -14,7 +14,7 @@
     `bash gradlew setup installerJar`
   * Build with Windows:  
     `gradlew.bat setup installerJar`
-* **1.16.5**
+* **1.16.5 - 1.20**
   * Build with Linux:  
     `bash gradlew setup mohistJar`
   * Build with Windows:  

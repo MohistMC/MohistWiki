@@ -8,7 +8,7 @@
 Recommended proxy softwares for Mohist:
 
 - [Waterfall](https://papermc.io/downloads#Waterfall) (for Mohist 1.12.2)
-- [Lightfall](https://github.com/MohistMC/lightfall) (for Mohist 1.16.5)
+- [Lightfall](https://github.com/ArclightPowered/lightfall) (for Mohist 1.16.5+)
 
 * GeyserMC can't work with Mohist if client side mods are used, since Minecraft Windows 10 edition can't use forge and mods.
 
@@ -55,6 +55,6 @@ servers:
     restricted: false
 ```
 
-⚠️ **FOR 1.16.5 USERS:** Players need to download [Lightfall-client](https://github.com/MohistMC/lightfall-client/releases/download/1.0/lightfallclient-1.0.0.jar) to be able to join if your server require client side mods. You can also see the [source code](https://github.com/ArclightPowered/lightfall-client) of the lightfall client.
+⚠️ **FOR 1.16.5+ USERS:** Players need to download [Lightfall-client](https://github.com/ArclightPowered/lightfall-client/releases) to be able to join if your server require client side mods. You can also see the [source code](https://github.com/ArclightPowered/lightfall-client) of the lightfall client.
 
 * Now you can start your proxy and all your Mohist servers!

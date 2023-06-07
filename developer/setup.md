@@ -1,19 +1,10 @@
 ## Setup Mohist for development
 
-> Available versions : **1.12.2**, **1.16.5** and **1.7.10**
+> Available versions : **1.7.10**, **1.12.2**, **1.16.5**, **1.18.2**, **1.19.2**, **1.19.4**, **1.20**
 ### Steps
 * Checkout project
-  * **1.12.2**:  
     ```bash
-    git clone https://github.com/MohistMC/Mohist.git -b 1.12.2
-    ```
-  * **1.16.5**:  
-    ```bash
-    git clone https://github.com/MohistMC/Mohist.git -b 1.16.5
-    ```
-  * **1.7.10**:
-    ```bash
-    git clone https://github.com/MohistMC/Mohist.git -b 1.7.10
+    git clone https://github.com/MohistMC/Mohist.git -b <mc-version>
     ```
 * Setup
   * Setup with Linux:  

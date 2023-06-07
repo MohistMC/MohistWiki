@@ -13,10 +13,13 @@ Mohist Versions
 
 #### 1.16.5
 - This version is **highly supported** and is our priority right now.
-- This version has the **latest Forge 1.16 version** (36.2).
+- This version has the **latest Forge 1.16 version** (36.2.39).
 
-#### 1.17.X/1.18.X
-- These versions have been skipped and are no longer supported.
+#### 1.18.2/19.2
+- This version is currently in early developement and shouldn't be used in production yet.
 
-#### 1.19
+#### 1.19.4
+- Near production availability
+
+#### 1.20
 - This version is currently in early developement and shouldn't be used in production yet.
