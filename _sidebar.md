@@ -11,7 +11,9 @@
     - [mohist.yml](config/mohist-yml-1.12.2.md)
   - 1.16.5
     - [mohist.yml](config/mohist-yml-1.16.5.md)
-  - [Commands](config/commands.md)
+  - 1.20.1
+      - [mohist.yml](config/mohist-yml-1.20.1.md)
+    - [Commands](config/commands.md)
 - Developer
   - [Website API](developer/website-api.md)
   - [Setup](developer/setup.md)
