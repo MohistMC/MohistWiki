@@ -1,4 +1,5 @@
 * [Website](https://mohistmc.com/)
+* [Website(CN)](https://mohistmc.cn/)
 * [Jenkins](https://ci.codemc.io/job/MohistMC)
 * [GitHub](https://github.com/MohistMC)
 * [Discord](https://discord.gg/mohist)
