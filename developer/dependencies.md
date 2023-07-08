@@ -23,7 +23,7 @@ dependencies {
  }
 
 dependencies {
-    implementation 'com.mohistmc:mohistdev:1.16.5-0.1'
+    implementation 'com.mohistmc:mohistdev:1.16.5'
 }
 ```
 
