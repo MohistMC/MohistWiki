@@ -2,6 +2,9 @@
 
 ---
 
+It is recommended to use the official template for plugin development.  
+https://github.com/MohistMC/MohistPlugin
+
 ### 1.12.2
 ```
  repositories {
