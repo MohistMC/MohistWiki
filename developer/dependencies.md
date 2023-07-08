@@ -26,3 +26,15 @@ dependencies {
     implementation 'com.mohistmc:mohistdev:1.16.5-0.1'
 }
 ```
+
+
+### 1.20.1
+```
+ repositories {
+    maven {url "https://maven.mohistmc.com/"}
+ }
+
+dependencies {
+    implementation 'com.mohistmc:mohistdev:1.20.1'
+}
+```
