@@ -16,9 +16,9 @@ You can also use **wget** command if you want.
 
 Example : 
 
-    ```bash
-    wget https://mohistmc.com/api/<mc-version>/latest/download
-    ```
+```bash
+wget https://mohistmc.com/api/<mc-version>/latest/download
+```
 ---
 Install
 ---
