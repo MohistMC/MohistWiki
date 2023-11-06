@@ -20,10 +20,6 @@ How to use **Waterfall** and **Lightfall**:
 ```
 bungeecord: true
 ```
--> __bukkit.yml__
-```
-connection-throttle: -1
-```
 -> __server.properties__
 ```
 online-mode=false //if you still want a premium only server you can set it inside of the waterfall's config file later
