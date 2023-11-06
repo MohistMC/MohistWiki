@@ -34,6 +34,7 @@
   - [Geyser Support](questions/geysermc.md)
 - Tutorials
   - [Bungeecord Installation](tutorials/bungeecord.md)
+  - [Velocity Installation](tutorials/velocity.md)
   - [Update Mohist](tutorials/update.md)
   - [Customize libraries](tutorials/customizelibraries.md)
   - [Multiverses alternatives](tutorials/multiverses.md)
