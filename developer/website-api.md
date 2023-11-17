@@ -1,6 +1,13 @@
 ## Website JSON API
 
 ---
+# API V2
+
+Access the docs for the API V2 here: https://new.mohistmc.com/mohistmc-api
+
+# API V1
+
+### Important Note: API V1 will be discontinued on December 31, 2024.
 
 API Route: https://mohistmc.com/api/ 
 
