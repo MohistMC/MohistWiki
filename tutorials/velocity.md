@@ -1,4 +1,4 @@
-## Velocity Support (1.20.2+)
+## Velocity Support (1.20.1+)
 ---
 
 ### How to use Velocity with Mohist ?
@@ -9,8 +9,6 @@
 ```
 velocity:
   enabled: true
-forge:
-  ignoreConnectionType: true  // This is temporary and may be removed in a future version
 ```
 -> __server.properties__
 ```
