@@ -31,7 +31,6 @@ java -jar <velocity jar name>.jar
 It is recommended to read the official documentation of velocity: https://docs.papermc.io/velocity/player-information-forwarding#configuring-modern-forwarding-for-paper
 ```
 
-* 1.20.2+ You still need to add https://github.com/ArclightPowered/lightcity Install into Velocity
 * Now you can start your proxy and all your Mohist servers!
 
 
