@@ -24,3 +24,25 @@ The file path `*/mohist-config/mohist.yml`
      ```
      libraries_black_list:
         - "snakeyaml-2.0"
+     ```
+
+* `player_modlist_blacklist:`    
+    #: Built-in modid blacklist
+    - `enable: false`    
+      #: Used to enable / disable the mod blacklist, set to `false` by default (boolean).
+    - `list: []`    
+      #: Mod ID array. Enter the MODID's of the mods you want to disable.    
+      #: If enabled, the layout changes after the `server.jar` is restarted    
+      > Before restart:
+      ```
+      player_modlist_blacklist:
+        enable: true
+        list ["examplemodid"]
+      ```
+      > After restart:
+      ```
+      player_modlist_blacklist:
+        enable: true
+        list:
+        - examplemodid
+      ```
