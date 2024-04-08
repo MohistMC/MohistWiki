@@ -1,7 +1,7 @@
 - 入门
   - [Mohist](/zh-cn/)
-  - [Versions](/zh-cn/about/versions.md)
-  - [End of life versions](/zh-cn/about/end-of-life.md)
+  - [版本](/zh-cn/about/versions.md)
+  - [生命周期终止版本](/zh-cn/about/end-of-life.md)
 - 安装
   - [Requirements](/zh-cn/install/requirements.md)
   - [Windows installation](/zh-cn/install/windows.md)

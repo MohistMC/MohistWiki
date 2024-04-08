@@ -1,5 +1,5 @@
-##Mohist's history
+##Mohist 发展史
 
 ---
 
-Writing...
+撰写中……
