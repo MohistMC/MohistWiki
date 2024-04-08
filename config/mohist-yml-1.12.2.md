@@ -40,10 +40,10 @@ The file path `*/mohist-config/mohist.yml`
   - `check_update_auto_download: false`  
     #: Automatically download when new version is detected
   - `realtimeticking: false`  
-    #: realtime？ This feature comes from SpongeForge
+    #: realtime game running (instead of game ticking). This feature comes from SpongeForge
   - `watchdog_mohist: false`  
     #: Mohist's watchdog
   - `watchdog_spigot: true`  
-    #: Spigot'swatchdog
+    #: Spigot's watchdog
   - `showlogo: true`  
     #: The character LOGO you will see when running Mohist

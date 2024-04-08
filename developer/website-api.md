@@ -195,7 +195,6 @@ GET https://mohistmc.com/api/<mcversion>/latest/download
 ```
 
 * `mcversion`: The version of Mohist to get the builds for. Can be parsed using the _"Getting available versions"_ route.
-* `buildnumber`: The build number of the build to get. 
 
 <details>
   <summary style="font-weight: bold">Example request</summary>

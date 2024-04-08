@@ -60,7 +60,7 @@ The file path `*/mohist-config/mohist.yml`
         #: Put the list of the mods you want to disallow. Set `xray` or `xray,anothermod` for example. You must fill with modid !
 
     - `kickmessage: Use of unauthorized mods`   
-        #: Customize kick message when use join with unauthorized mods.
+        #: Customize kick message when user join with unauthorized mods.
 
   * `modswhitelist`   
   #: Mods whitelist
@@ -74,10 +74,10 @@ The file path `*/mohist-config/mohist.yml`
        #: Put the list of the mods you want to allow on your server. You can use `/whitelistmods enable` or `/whitelistmods update` to update this list automatically
 
     - `kickmessage: Use of unauthorized mods`   
-       #: Customize kick message when use join with unauthorized mods. Set `true` to enable, `false` to disable
+       #: Customize kick message when user join with unauthorized mods. Set `true` to enable, `false` to disable
 
  * `hidejoinmodslist: false`    
- #: Hide mods in the console when a client joins the server. Set `true` to enable, `false` to disable
+ #: Hide mods in the console when a client joins the server.
 
 
 * `consolecolor`    

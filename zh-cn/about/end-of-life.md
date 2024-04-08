@@ -1,24 +1,25 @@
-Mohist End Of Life Versions
+Mohist 生命周期终止版本
 ---
 
-### What is an "End of Life" version and what does it mean?
+### 什么是“生命周期终止(End of Life, EOL)”版本，它意味着什么？
 
-An End of Life version (EOL) is a version that already has received a lot of updates and work from people, and which is/gonna be not supported anymore. The versions that are marked as archived on GitHub or End of Life will not receive any updates from the Mohist team, except for very high priority issues or security fixes.
-      
-      
-> Can we still contribute to these versions?    
+生命周期终止 (EOL) 版本是已经获得大量代码贡献和更新修补的，(即将)不再继续获得支持的版本。
+在 Github 上已标注为 Archived 或 End of Life 的版本，除高优先级问题或安全更新外，Mohist 团队不会继续为其提供更新修补。
 
-**Of course** you can! We will not update it anymore, but the community can still update it by making pull requests to the repository.
 
-> What versions are currently EOL?    
+> 我们能否继续为这些版本贡献代码？  
 
-Mohist currently has two EOL versions, which are 1.7.10 and now 1.12.2.
+**当然可以！** 我们不会为这些版本继续提供更新，但社区开发者仍可以通过向代码仓提交合并请求 (Pull Requests) 来提交更新。
+
+> 哪些版本的生命周期现已终止？ 
+
+Mohist 当前有两个生命周期终止版本，1.7.10 和 1.12.2。
 
 ## 1.7.10
 
-This version didn't receive many updates, but due to missing time and users, it cannot be updated anymore. Please use Crucible/Uranium/Thermos as an alternative.
+此版本此前未获得大量更新修补，但基于时间的紧张和用户的缺乏，不再继续提供更新修补。您可以使用 Crucible, Uranium 或 Thermos 作为替代。
 
 ## 1.12.2
 
-This version already received lots of work from the Mohist developers and the other contributors and is one of the most used Mohist versions. We are proud to have created it. Unfortunately, due to a lack of time and the evolution of Minecraft versions, we had to stop maintaining it.     
-But this version is not lost! It is stable and still properly usable.
+此版本已由 Mohist 开发者和其他社区贡献者提供大量更新修补，并成为 Mohist 使用量最大的版本之一，我们为构建了这一版本骄傲。遗憾的是，由于时间的紧张与 Minecraft 版本的更迭，我们不得不终止对此版本的维护。但此版本并未消失，它仍是稳定且可用的！
+

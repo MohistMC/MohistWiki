@@ -31,7 +31,7 @@ The file path `*/mohist-config/mohist.yml`
     - `enable: false`    
       #: Used to enable / disable the mod blacklist, set to `false` by default (boolean).
     - `list: []`    
-      #: Mod ID array. Enter the MODID's of the mods you want to disable.    
+      #: Mod ID array. Enter the MODID of the mods you want to disable.    
       #: If enabled, the layout changes after the `server.jar` is restarted    
       > Before restart:
       ```

@@ -1,7 +1,7 @@
 - 入门
   - [Mohist](/zh-cn/)
-  - [Versions](/zh-cn/about/versions.md)
-  - [End of life versions](/zh-cn/about/end-of-life.md)
+  - [版本](/zh-cn/about/versions.md)
+  - [生命周期终止版本](/zh-cn/about/end-of-life.md)
 - 安装
   - [Requirements](/zh-cn/install/requirements.md)
   - [Windows installation](/zh-cn/install/windows.md)
@@ -13,15 +13,15 @@
     - [mohist.yml](/zh-cn/config/mohist-yml-1.16.5.md)
   - 1.20.1
       - [mohist.yml](/zh-cn/config/mohist-yml-1.20.1.md)
-    - [Commands](/zh-cn/config/commands.md)
+    - [Mohist 命令](/zh-cn/config/commands.md)
 - 开发
-  - [Website API](/zh-cn/developer/website-api.md)
-  - [Setup](/zh-cn/developer/setup.md)
-  - [Build](/zh-cn/developer/build.md)
-  - [Generate patches](/zh-cn/developer/patches.md)
-  - [Dependencies](/zh-cn/developer/dependencies.md)
+  - [网站 API](/zh-cn/developer/website-api.md)
+  - [配置开发环境](/zh-cn/developer/setup.md)
+  - [构建](/zh-cn/developer/build.md)
+  - [生成补丁文件](/zh-cn/developer/patches.md)
+  - [开发依赖](/zh-cn/developer/dependencies.md)
   - [JavaDocs](/zh-cn/developer/javadocs.md)
-  - [Run in IDE](/zh-cn/developer/run-mohist-in-ide.md)
+  - [在 IDE 中运行](/zh-cn/developer/run-mohist-in-ide.md)
 - Problems & Analytics
   - [Common problem](/zh-cn/install/problem.md)
   - [I have a bug](/zh-cn/questions/problem.md)
