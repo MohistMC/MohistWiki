@@ -1,8 +1,8 @@
-## Dependencies
+## 开发依赖
 
 ---
 
-It is recommended to use the official template for plugin development.  
+建议使用官方模板进行插件开发。
 https://github.com/MohistMC/MohistPlugin
 
 ### 1.12.2

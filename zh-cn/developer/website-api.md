@@ -1,30 +1,30 @@
-## Website JSON API
+## 网站 JSON API
 
 ---
 # API V2
 
-Access the docs for the API V2 here: https://new.mohistmc.com/mohistmc-api
+在此处访问 API V2 文档: https://new.mohistmc.com/mohistmc-api
 
 # API V1
 
-### Important Note: API V1 will be discontinued on December 31, 2024.
+### 重要提醒: API V1 将在 2024 年 12 月 31 日终止。
 
-API Route: https://mohistmc.com/api/ 
+API 路径: https://mohistmc.com/api/ 
 
-* Note on behavior: The API will return `404` if a route doesn't exist.
+* 行为提示: 若请求路径不存在，API将返回`404`。
 
-### Getting available versions
+### 获取可用该版本
 
 ```
 GET https://mohistmc.com/api/versions
 
--> Returns a JSON array of strings.
+-> 返回一个包含字符串的JSON数组。
 ```
 
-Get the list of available Mohist versions.
+获取可用的 Mohist 版本列表。
 
 <details>
-  <summary style="font-weight: bold">Example request response</summary>
+  <summary style="font-weight: bold">请求返回值示例</summary>
 
 ```json
 [
@@ -36,52 +36,52 @@ Get the list of available Mohist versions.
 ```
 </details>
 
-### Get all builds
+### 获取所有构建版本
 
 ```
 GET https://mohistmc.com/api/<mcversion>/
 
--> Returns a JSON array of objects that contains each builds information.
+-> 返回一个包含构建信息对象的JSON数组。
 ```
 
-* `mcversion`: The version of Mohist to get the builds for. Can be parsed using the _"Getting available versions"_ route.
+* `mcversion`: 要获取构建信息的 Mohist 版本。 可以从 _"获取可用的 Mohist 版本列表"_ 路径提取。
 
-Get the list of available builds for a specific Mohist version.
+获取特定 Mohist 版本的可用构建列表。
 
-> There are additional params that can be used to filter the results.
+> 可使用附加参数筛选请求结果。
 
-Getting all `SUCCESS` builds:
+获取所有 `SUCCESS` (成功)构建:
 
 ```
 GET https://mohistmc.com/api/<mcversion>?status=SUCCESS
 
--> Returns a JSON array of objects that contains each success builds information.
+-> 返回一个包含成功构建信息对象的JSON数组。
 ```
 
-Getting all `FAILED` builds:
+获取所有 `FAILED` (失败)构建:
 
 ```
 GET https://mohistmc.com/api/<mcversion>?status=FAILED
 
--> Returns a JSON array of objects that contains each failed builds information.
+-> 返回一个包含失败构建信息对象的JSON数组。
 ```
 
-### Get particular build
+### 获取特定构建版本
 
-> Note: Getting a non-existing build will return 404 error with "Build not found" `string` body.
+> 提示: 获取不存在的构建版本将返回 404 错误和"Build not found"字符串响应体。
 ```
 GET https://mohistmc.com/api/<mcversion>/<buildnumber>/
 
--> Returns a JSON object that contains build information.
+-> 返回构建信息JSON对象。
 ```
 
-* `mcversion`: The version of Mohist to get the builds for. Can be parsed using the _"Getting available versions"_ route.
-* `buildnumber`: The build number of the build to get. 
+* `mcversion`: 要获取构建信息的 Mohist 版本。可以从 _"获取可用的 Mohist 版本列表"_ 路径提取。
+* `buildnumber`: 要获取的构建版本的构建号。
 
-Get the information of a specific build for a specific Mohist version.
+获取特定 Mohist 版本的特定构建版本信息。
 
 <details>
-  <summary style="font-weight: bold">Example SUCCESS BUILD request response</summary>
+  <summary style="font-weight: bold">成功构建请求返回值示例</summary>
 
 ```json
 {
@@ -110,7 +110,7 @@ Get the information of a specific build for a specific Mohist version.
 </details>
 
 <details>
-  <summary style="font-weight: bold">Example FAILED BUILD request response</summary>
+  <summary style="font-weight: bold">失败构建请求返回值示例</summary>
 
 ```json
 {
@@ -120,22 +120,22 @@ Get the information of a specific build for a specific Mohist version.
 ```
 </details>
 
-### Get the latest build
+### 获取最新构建版本
 
-> Note: It will **always** return a SUCCESS build.
+> 提示: 此API**总是**返回成功构建的信息.
 
 ```
 GET https://mohistmc.com/api/<mcversion>/latest/
 
--> Returns a JSON object that contains build information.
+-> 返回一个包含构建信息的JSON对象。
 ```
 
-* `mcversion`: The version of Mohist to get the builds for. Can be parsed using the _"Getting available versions"_ route.
+* `mcversion`: 要获取构建信息的 Mohist 版本。可以从 _"获取可用的 Mohist 版本列表"_ 路径提取。
 
-Get the information of the latest build of a specific Mohist version.
+获取特定 Mohist 版本的最新构建版本信息。
 
 <details>
-  <summary style="font-weight: bold">Example usage</summary>
+  <summary style="font-weight: bold">用法示例</summary>
 
 ```
 GET https://mohistmc.com/api/1.12.2/latest
@@ -167,38 +167,37 @@ GET https://mohistmc.com/api/1.12.2/latest
 ```
 </details>
 
-### Downloading a build from API
+### 使用API下载一个构建版本
 
 ```
 GET https://mohistmc.com/api/<mcversion>/<buildnumber>/download
 
--> Returns the build jar file.
+-> 返回构建 jar 文件。
 ```
 
-* `mcversion`: The version of Mohist to get the builds for. Can be parsed using the _"Getting available versions"_ route.
-* `buildnumber`: The build number of the build to get.
+* `mcversion`: 要获取构建信息的 Mohist 版本。可以从 _"获取可用的 Mohist 版本列表"_ 路径提取。
+* `buildnumber`: 要获取的构建版本的构建号。
 
 <details>
-  <summary style="font-weight: bold">Example request</summary>
+  <summary style="font-weight: bold">请求示例</summary>
 
 ```
 GET https://mohistmc.com/api/1.12.2/300/download
 ```
 </details>
 
-### Downloading the latest build from API
+### 使用API下载最新构建版本
 
 ```
 GET https://mohistmc.com/api/<mcversion>/latest/download
 
--> Returns the build jar file.
+-> 返回构建 jar 文件。
 ```
 
-* `mcversion`: The version of Mohist to get the builds for. Can be parsed using the _"Getting available versions"_ route.
-* `buildnumber`: The build number of the build to get. 
+* `mcversion`: 要获取构建信息的 Mohist 版本。可以从 _"获取可用的 Mohist 版本列表"_ 路径提取。
 
 <details>
-  <summary style="font-weight: bold">Example request</summary>
+  <summary style="font-weight: bold">请求示例</summary>
 
 ```
 GET https://mohistmc.com/api/1.12.2/latest/download

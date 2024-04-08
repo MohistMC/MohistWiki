@@ -1,13 +1,13 @@
-## Generate patches
+## 生成补丁文件
 ---
 
-> **Before starting, be sure you followed the [setup tutorial](developer/setup.md).**
+> **开始之前，请确保你已完成了[配置 Mohist 开发环境](developer/setup.md)。**
 
-### Steps
-* Generate patches
+### 步骤
+* 生成补丁文件
   * **Linux**   
      `./gradlew genPatches`
   * **Windows**      
      `gradlew.bat genPatches`
 
-After entering the command, you can go and have a cup of tea, it can take a long time (allow up to 5 minutes).
+输入命令后，你可以去喝杯茶，命令运行需要一些时间（可达 5 分钟）。
