@@ -13,7 +13,7 @@
     - [mohist.yml](/zh-cn/config/mohist-yml-1.16.5.md)
   - 1.20.1
       - [mohist.yml](/zh-cn/config/mohist-yml-1.20.1.md)
-    - [Commands](/zh-cn/config/commands.md)
+    - [Mohist 命令](/zh-cn/config/commands.md)
 - 开发
   - [Website API](/zh-cn/developer/website-api.md)
   - [Setup](/zh-cn/developer/setup.md)
