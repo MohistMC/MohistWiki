@@ -1,0 +1,40 @@
+- About
+  - [Mohist]()
+  - [Versions](about/versions.md)
+  - [End of life versions](about/end-of-life.md)
+- Install
+  - [Requirements](install/requirements.md)
+  - [Windows installation](install/windows.md)
+  - [Linux installation](install/linux.md)
+- Configuration
+  - 1.12.2
+    - [mohist.yml](config/mohist-yml-1.12.2.md)
+  - 1.16.5
+    - [mohist.yml](config/mohist-yml-1.16.5.md)
+  - 1.20.1
+      - [mohist.yml](config/mohist-yml-1.20.1.md)
+    - [Commands](config/commands.md)
+- Developer
+  - [Website API](developer/website-api.md)
+  - [Setup](developer/setup.md)
+  - [Build](developer/build.md)
+  - [Generate patches](developer/patches.md)
+  - [Dependencies](developer/dependencies.md)
+  - [JavaDocs](developer/javadocs.md)
+  - [Run in IDE](developer/run-mohist-in-ide.md)
+- Problems & Analytics
+  - [Common problem](install/problem.md)
+  - [I have a bug](questions/problem.md)
+  - [Search for mod/plugin issue](questions/modplissue.md)
+- Questions
+  - [Forge Support](questions/forge.md)
+  - [Fabric Support](questions/fabric.md)
+  - [Bukkit, Spigot and Paper Support](questions/bukkitspigotpaper.md)
+  - [Sponge Support](questions/sponge.md)
+  - [Geyser Support](questions/geysermc.md)
+- Tutorials
+  - [Bungeecord Installation](tutorials/bungeecord.md)
+  - [Velocity Installation](tutorials/velocity.md)
+  - [Update Mohist](tutorials/update.md)
+  - [Customize libraries](tutorials/customizelibraries.md)
+  - [Multiverses alternatives](tutorials/multiverses.md)

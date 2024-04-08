@@ -3,4 +3,4 @@
 * [GitHub](https://github.com/MohistMC)
 * [Discord](https://discord.gg/mohistmc)
 * [QQ](https://jq.qq.com/?_wv=1027&k=5YIRYnH)
-- [**EN** / CN](zh-cn/)
+- [EN / **CN**](/)
