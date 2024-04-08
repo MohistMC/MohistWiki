@@ -1,6 +1,6 @@
-* [Website](https://mohistmc.com/)
+* [官网](https://mohistmc.com/)
 * [Jenkins](https://ci.codemc.io/job/MohistMC)
 * [GitHub](https://github.com/MohistMC)
 * [Discord](https://discord.gg/mohistmc)
 * [QQ](https://jq.qq.com/?_wv=1027&k=5YIRYnH)
-- [EN / **CN**](/)
+* [:uk: English](/)

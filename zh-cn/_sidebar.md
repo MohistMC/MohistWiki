@@ -1,40 +1,40 @@
-- About
-  - [Mohist]()
-  - [Versions](about/versions.md)
-  - [End of life versions](about/end-of-life.md)
-- Install
-  - [Requirements](install/requirements.md)
-  - [Windows installation](install/windows.md)
-  - [Linux installation](install/linux.md)
-- Configuration
+- 入门
+  - [Mohist](/zh-cn/)
+  - [Versions](/zh-cn/about/versions.md)
+  - [End of life versions](/zh-cn/about/end-of-life.md)
+- 安装
+  - [Requirements](/zh-cn/install/requirements.md)
+  - [Windows installation](/zh-cn/install/windows.md)
+  - [Linux installation](/zh-cn/install/linux.md)
+- 配置文件
   - 1.12.2
-    - [mohist.yml](config/mohist-yml-1.12.2.md)
+    - [mohist.yml](/zh-cn/config/mohist-yml-1.12.2.md)
   - 1.16.5
-    - [mohist.yml](config/mohist-yml-1.16.5.md)
+    - [mohist.yml](/zh-cn/config/mohist-yml-1.16.5.md)
   - 1.20.1
-      - [mohist.yml](config/mohist-yml-1.20.1.md)
-    - [Commands](config/commands.md)
-- Developer
-  - [Website API](developer/website-api.md)
-  - [Setup](developer/setup.md)
-  - [Build](developer/build.md)
-  - [Generate patches](developer/patches.md)
-  - [Dependencies](developer/dependencies.md)
-  - [JavaDocs](developer/javadocs.md)
-  - [Run in IDE](developer/run-mohist-in-ide.md)
+      - [mohist.yml](/zh-cn/config/mohist-yml-1.20.1.md)
+    - [Commands](/zh-cn/config/commands.md)
+- 开发
+  - [Website API](/zh-cn/developer/website-api.md)
+  - [Setup](/zh-cn/developer/setup.md)
+  - [Build](/zh-cn/developer/build.md)
+  - [Generate patches](/zh-cn/developer/patches.md)
+  - [Dependencies](/zh-cn/developer/dependencies.md)
+  - [JavaDocs](/zh-cn/developer/javadocs.md)
+  - [Run in IDE](/zh-cn/developer/run-mohist-in-ide.md)
 - Problems & Analytics
-  - [Common problem](install/problem.md)
-  - [I have a bug](questions/problem.md)
-  - [Search for mod/plugin issue](questions/modplissue.md)
+  - [Common problem](/zh-cn/install/problem.md)
+  - [I have a bug](/zh-cn/questions/problem.md)
+  - [Search for mod/plugin issue](/zh-cn/questions/modplissue.md)
 - Questions
-  - [Forge Support](questions/forge.md)
-  - [Fabric Support](questions/fabric.md)
-  - [Bukkit, Spigot and Paper Support](questions/bukkitspigotpaper.md)
-  - [Sponge Support](questions/sponge.md)
-  - [Geyser Support](questions/geysermc.md)
-- Tutorials
-  - [Bungeecord Installation](tutorials/bungeecord.md)
-  - [Velocity Installation](tutorials/velocity.md)
-  - [Update Mohist](tutorials/update.md)
-  - [Customize libraries](tutorials/customizelibraries.md)
-  - [Multiverses alternatives](tutorials/multiverses.md)
+  - [Forge Support](/zh-cn/questions/forge.md)
+  - [Fabric Support](/zh-cn/questions/fabric.md)
+  - [Bukkit, Spigot and Paper Support](/zh-cn/questions/bukkitspigotpaper.md)
+  - [Sponge Support](/zh-cn/questions/sponge.md)
+  - [Geyser Support](/zh-cn/questions/geysermc.md)
+- 指南
+  - [Bungeecord Installation](/zh-cn/tutorials/bungeecord.md)
+  - [Velocity Installation](/zh-cn/tutorials/velocity.md)
+  - [Update Mohist](/zh-cn/tutorials/update.md)
+  - [Customize libraries](/zh-cn/tutorials/customizelibraries.md)
+  - [Multiverses alternatives](/zh-cn/tutorials/multiverses.md)
