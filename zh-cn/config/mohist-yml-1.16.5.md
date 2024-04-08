@@ -1,87 +1,87 @@
 ### Mohist.yml
 
-The file path `*/mohist-config/mohist.yml`
+文件位于路径 `*/mohist-config/mohist.yml`
 
-* `mohist`    
-  #: Mohist related options
-  - `check_update: true`    
-    #: Enabling / Disabling update checker. Set `true` to enable, `false` to disable.
+* `mohist`
+  #: Mohist 相关的配置项 
+  - `check_update: true`
+    #: 启用/禁用更新检查。设置`true`来启用，`false`来禁用。
 
-  - `lang: xx_XX`   
-    #: The language of the console and internal prompts, the system language is used by default. Set `fr_FR` for french, `ru_RU` for russian and `zh_CN` for chinese. Default language is english.
+  - `lang: xx_XX` 
+    #: 控制台和内部提示的语言，默认使用系统语言。设置`fr_FR`表示法语，`ru_RU`表示俄语，`zh_CN`表示中文。默认语言是英语。
 
-  - `custom_flags: aaaa bbbb`   
-    #: You can use custom flags here like Aikar flags. Fill like this `anarg anotherarg`.
+  - `custom_flags: aaaa bbbb` 
+    #: 您可以在这里使用自定义 jvm 参数，比如 Aikar 参数。填写方式如`anarg anotherarg`。
 
-  - `check_libraries: true`   
-    #: Enabling / Disabling libraries checker. Set `true` to enable, `false` to disable
+  - `check_libraries: true` 
+    #: 启用/禁用运行库检查器。设置`true`来启用，`false`来禁用。
 
-  - `libraries_downloadsource: MOHIST`   
-    #: Provide 3 options: MOHIST, CHINA, GITHUB
+  - `libraries_downloadsource: MOHIST` 
+    #: 运行库下载源，提供三个选项：MOHIST，CHINA，GITHUB。
 
-  - `disable_mods_blacklist: false`   
-    #: Turn off mods blacklist detection, most of them are incompatible or mods that have been implemented inside mohist. Set `true` to enable, `false` to disable
+  - `disable_mods_blacklist: false` 
+    #: 关闭模组黑名单检测，大部分是不兼容的或已在Mohist内部实现的模组。设置`true`来启用，`false`来禁用。
 
-  - `disable_plugins_blacklist: false`    
-    #: Turn off plugins blacklist detection, most of them are incompatible or plugins that have been implemented inside mohist. Set `true` to enable, `false` to disable
+  - `disable_plugins_blacklist: false`
+    #: 关闭插件黑名单检测，大部分是不兼容的或已在Mohist内部实现的插件。设置`true`来启用，`false`来禁用。
 
-  - `check_update_auto_download: false`   
-    #: Automatically download when new version is detected. Set `true` to enable, `false` to disable
+  - `check_update_auto_download: false` 
+    #: 检测到新版本时自动下载。设置`true`来启用，`false`来禁用。
 
-  - `use_custom_java11: false`    
-    #: If you don't have java 11 or a version under java 16 installed on your pc, setting this to true will download java 11 automatically. Set `true` to enable, `false` to disable
+  - `use_custom_java11: false`
+    #: 如果您的电脑未安装 Java 11 或低于 Java 16 的版本，将此设置为`true`将自动下载 Java 11。设置`true`来启用，`false`来禁用。
 
-  - `showlogo: true`    
-    #: Show Mohist logo at server start. Set `true` to enable, `false` to disable
+  - `showlogo: true`
+    #: 在服务器启动时显示 Mohist logo。设置`true`来启用，`false`来禁用。
 
-  - `optimize_explosions: true`   
-    #: Optimize explosions, a feature comes from paper. Set `true` to enable, `false` to disable
+  - `optimize_explosions: true` 
+    #: 优化爆炸，这是来自 Paper 的功能。设置`true`来启用，`false`来禁用。
 
-  - `prevent_from_entering_unloaded_chunks: true`   
-    #: `true` doesn't allow a player to enter a chunk which is being generated/loaded (chunk is not ready). `false` doesn't check for this (not recommended, can cause cascading lag if player continues to traverse into unloaded territory).
+  - `prevent_from_entering_unloaded_chunks: true` 
+    #: 设置为`true`以禁止玩家进入正在生成/加载的区块（区块未准备好）。设置为`false`以停止此检查（不推荐，如果玩家继续进入未加载的区域，可能会导致级联延迟）。
 
-  - `forge_ignore_optional_mods_version_check: false`   
-    #: Ignore forge mods version check. Can be useful if a compatibility of a mod isn't detected correctly. Set `true` to enable, `false` to disable
+  - `forge_ignore_optional_mods_version_check: false` 
+    #: 忽略 Forge 模组版本检查。如果某个模组的兼容性没有被正确检测到，这可能会很有用。设置`true`来启用，`false`来禁用。
 
-  - `ignore_empty_time: all_worlds`   
-    #: This option forces to always run some additional chunk logic (so that chunkloaders could continue working, for example), even if no players are in target world. `all_worlds` for all loaded worlds (recommended), `world name` for specific world.
+  - `ignore_empty_time: all_worlds` 
+    #: 此选项强制始终运行一些额外的区块逻辑（例如使区块加载器能够继续工作），即使目标世界中没有玩家。`all_worlds`适用于所有已加载的世界（推荐），填入`世界名称`以对特定世界启用。
 
-  - `chunk_unload_delay: 5`   
-    #: 5 here is inactivity period (in seconds) before chunk unload. 5 seconds is the best option, 10 seconds if you wanna be ultra-safe.
+  - `chunk_unload_delay: 5` 
+    #: 这里的5是区块卸载前的不活动时间（以秒为单位）。5秒是最佳选项，如果您想要极其安全的区块卸载，可以调整为10秒。
 
-* `forge`   
-  #: Forge related options
-  * `modsblacklist`   
-  #: Mods blacklist
-    - `enable: false`   
-        #: Enable or disable the mods blacklist. Set `true` to enable, `false` to disable
+* `forge` 
+  #: Forge 相关的配置项
+  * `modsblacklist` 
+  #: 模组黑名单
+    - `enable: false` 
+        #: 启用或禁用模组黑名单。设置`true`来启用，`false`来禁用。
 
-    - `list: aaaa,bbbb`   
-        #: Put the list of the mods you want to disallow. Set `xray` or `xray,anothermod` for example. You must fill with modid !
+    - `list: aaaa,bbbb` 
+        #: 放置您希望禁止的模组列表。例如，设置为`xray`或`xray,anothermod`。您必须使用 modid 填写！
 
-    - `kickmessage: Use of unauthorized mods`   
-        #: Customize kick message when use join with unauthorized mods.
+    - `kickmessage: Use of unauthorized mods` 
+        #: 自定义玩家使用未授权的模组加入服务器时的踢出信息。
 
-  * `modswhitelist`   
-  #: Mods whitelist
-    - `enable: false`   
-       #: Enable or disable the mods whitelist. Set `true` to enable, `false` to disable
+  * `modswhitelist` 
+  #: 模组白名单
+    - `enable: false` 
+       #: 启用或禁用模组白名单。设置`true`来启用，`false`来禁用。
 
-    - `mods_number: 0`    
-       #: Put the mods number authorized. If a client have more than this number, it will be disconnected. Set `1` to only allow 1 mod for example.
+    - `mods_number: 0`
+       #: 填入允许的模组数量。如果客户端的模组数量超过此数值，将会被断开连接。例如，设置`1`来只允许`1`个模组。
 
-    - `list: minecraft,forge`   
-       #: Put the list of the mods you want to allow on your server. You can use `/whitelistmods enable` or `/whitelistmods update` to update this list automatically
+    - `list: minecraft,forge` 
+       #: 填入您希望允许在您的服务器上使用的模组列表。您可以使用`/whitelistmods enable`或`/whitelistmods update`来自动更新这个列表。
 
-    - `kickmessage: Use of unauthorized mods`   
-       #: Customize kick message when use join with unauthorized mods. Set `true` to enable, `false` to disable
+    - `kickmessage: Use of unauthorized mods` 
+       #: 自定义玩家使用未授权的模组加入服务器时的踢出信息。
 
- * `hidejoinmodslist: false`    
- #: Hide mods in the console when a client joins the server. Set `true` to enable, `false` to disable
+ * `hidejoinmodslist: false`
+ #: 当客户端加入服务器时，在控制台中隐藏模组信息。设置`true`来启用，`false`来禁用。
 
 
-* `consolecolor`    
-  #: Options related to console colors.
+* `consolecolor`
+  #: 控制台色彩相关的配置项
   - `info-time: b`
   - `info-level: 2`
   - `info-msg: r`
@@ -98,5 +98,5 @@ The file path `*/mohist-config/mohist.yml`
   - `fatal-level: c`
   - `trace-msg: c`
 
-* `libraries_black_list: aaaaa;bbbbbb`    
-  #: When you fill this, you can make a specific library not downloaded by libraries checker. Set `filename1` or `filename1,filename2` for example.
+* `libraries_black_list: aaaaa;bbbbbb`
+  #: 当您填入此配置时，您可以让特定的运行库不被运行库检查器下载。例如，设置`filename1`或`filename1,filename2`。
