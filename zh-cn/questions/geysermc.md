@@ -1,8 +1,8 @@
-## GeyserMC Support
+## GeyserMC 支持
 
-### What about Geyser with Mohist?
+### GeyserMC 和 Mohist兼容吗？
 
-* Geyser can work with Mohist.    
-> Remember that **you can't install Forge mods on Minecraft Bedrock**.
+* 兼容。  
+> 请注意 **ForgeMod不能在基岩版上使用**.
 
-Geyser will work if you only use server side mods on your server. This means that if you need mods on the client side, you'll not be able to use Geyser. 
+Geyser 只能在没有客户端mod需求的情况下工作。

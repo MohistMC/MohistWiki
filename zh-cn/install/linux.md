@@ -1,37 +1,37 @@
-## Linux installation
+## Linux安装
 
 ---
-Requirements
+需求
 ---
 
-Please read the [requirements page](install/requirements.md) before reading this page.
+在阅读此页之前，请阅读 [需求清单](install/requirements.md)
 
 ---
-Download
+下载
 ---
 
-You can download the latest version from our [Website](https://mohistmc.com/download) or our [Jenkins](https://ci.codemc.org/job/MohistMC/).
+你可以从我们的 [官方下载渠道](https://mohistmc.com/download) 或者 [Jenkins](https://ci.codemc.org/job/MohistMC/) 下载最新构建。
 
-You can also use **wget** command if you want. 
+你也可以手动使用**wget**来下载。
 
-Example : 
+示例 : 
 
 ```bash
 wget https://mohistmc.com/api/<mc-version>/latest/download
 ```
 ---
-Install
+安装
 ---
 
-When the installation is finished, you can run your server using this command:
+当安装完成后，在bash中执行以下命令来启动:
 ```bash
 ./run.sh
 ```
 
-### Others
-When you downloaded the jar file, place it in **an empty directory**.
+### 杂项
+当你下载完jar文件之后，请将它放置在 **空目录**.
 
-Now launch it using the `java` command:
+现在使用`java`来启动它：
 
 ```bash
 java -jar mohist-<mcversion>-<buildnumber>-server.jar
