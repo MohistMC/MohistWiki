@@ -1,10 +1,10 @@
-## Bukkit, Spigot and Paper Support
+## Bukkit, Spigot and Paper 插件支持
 ---
 
-### What about these APIs with Mohist?
+### 这些 API 与 Mohist 的关系如何？
 
-* We use all of these APIs in Mohist.    
+* 我们同时使用它们。
 
-Bukkit and Spigot are used to add plugin compatibility into Mohist. Almost all plugins which are using these APIs are compatible, but some of them aren't compatible and need to be fixed on Mohist's side. But don't worry, you can report a plugin incompatibility on our [GitHub issue page](https://github.com/MohistMC/Mohist/issues).
+Bukkit和Spigot被添加在在 Mohist 来保证插件兼容性。几乎所有使用这些 API 的插件都是兼容的，但也有一些不兼容，需要Mohist进行修复。不过不用担心，您可以在我们的 [GitHub issue page](https://github.com/MohistMC/Mohist/issues)提交详细信息帮助我们修复.
 
-Paper is used to improve Mohist's performance and to add some useful features. Mohist 1.12.2 contains big parts of paper and we are implementing paper patches into Mohist 1.16.5 and above.
+Paper 用于提高 Mohist 的性能并添加一些有用的功能。Mohist 1.12.2 包含了大部分Paper，我们正在 Mohist 1.16.5 及以上版本中添加Paper支持。

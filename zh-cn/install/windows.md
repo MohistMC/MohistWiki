@@ -1,31 +1,31 @@
-## Windows installation
+## Windows 安装
 
 ---
-Requirements
+需求
 ---
 
-Please read the [requirements page](install/requirements.md) before reading this page.
+在阅读此页之前，请阅读 [需求清单](install/requirements.md)
 
 ---
-Download
+下载
 ---
 
-You can download the latest version from our [Website](https://mohistmc.com/download) or our [Jenkins](https://ci.codemc.org/job/MohistMC/).
+你可以从我们的[官网](https://mohistmc.com/download) 或者 [Jenkins](https://ci.codemc.org/job/MohistMC/)下载.
 
-Install
+安装
 ---
 
-When you downloaded the jar file, place it in **an empty directory**.
+下载完成jar文件之后，请将它放置在 **空目录中**.
 
-Now launch it using the `java` command:     
-_For users who knows how it works, you can skip the extra steps._
+现在使用 `java` 启动:     
+_对于了解Mohist如何运作的用户，你可以跳过该步骤._
 
 ```bash
 java -jar mohist-<mcversion>-<buildnumber>-server.jar
 ```
 
-**You don't know how this works ?**    
-Take the command above, replace `<mcversion>` by the version you downloaded (1.12.2, 1.16.5 or 1.7.10), and replace `<buildnumber>` by the build number.    
+**什么？你不知道？**    
+将上面命令中的`<mcversion>`替换成你的服务端版本(1.12.2, 1.16.5 or 1.7.10), 同时替换 `<buildnumber>`为你的实际构建号。
 
-How to run this command ?     
-Open file explorer to your server folder, and then press `shift` and `right click` button, and open with command prompt (CMD), and paste the command above.
+如何运行 ?     
+在文件管理器中打开你的服务端文件夹，按下 `shift` 和 `右键` 然后选择使用命令提示符(CMD)或者powershell打开,粘贴上面的命令。

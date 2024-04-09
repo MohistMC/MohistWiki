@@ -1,6 +1,6 @@
-## Fabric Support
+## Fabric 支持
 ---
 
-### What about Fabric mods with Mohist?
+### Fabric和Mohist关系如何？
 
-* Waiting for our new project: Banner
+* 请参阅我们的新项目：Banner

@@ -1,32 +1,32 @@
-## Check mods and plugins
+## 检查修改器和插件
 ---
 
-### I have a problem with a mod or a plugin.
+### 我在使用Mod或者插件时遇到问题。
 
-> You have **2 ways** to proceed.
-
----
-
-#### First way
-
-Take **half** of your mod or plugin list, and **delete it** (after creating a backup). Then, you check if you still have any **problem**.
-- I still have the bug:
-    - Okay, now just keep the mods/plugins you have in your folder, and **repeat** this process **until** you find the problem.
-- I don't have the bug anymore:
-    - Take the mods/plugins you **previously** deleted, and put them back in the mods/plugins folder, and **delete** the **other half** of the list.
-
-**Repeat** this process **until** you can find the mod or plugin that is causing your problem.
+> 您有**2种方法**进行处理。
 
 ---
 
-#### Second way
+#### 第一种方法
 
-Remove all of your mods/plugins **1 per 1**, or **2 per 2**, *or more*, and see which one is causing your problem.
+从你的模块或插件列表中抽取***一半，然后***删除它**（在创建备份之后）。然后，检查是否仍有任何**问题**。
+- 我仍然有问题：
+    - 好的，现在只需保留文件夹中的修改器/插件，然后**重复**这个过程，直到**找到问题所在。
+- 我的问题解决了：
+    - 将之前***删除的模块/插件放回模块/插件文件夹，然后***删除列表中的另一半模块/插件。
+
+**重复**这个过程，直到找到导致问题的模块或插件。
 
 ---
 
-> I finally found a plugin or a mod not working. What can i do?
+#### 第二种方法
 
-First, you can **join** our [Discord server](https://discord.gg/mohist) to get help about this mod / plugin. If we **can't** help you, you will need to **open an issue** on our [Github page](https://github.com/MohistMC/Mohist/issues).
+删除所有Mod/插件，看看是哪个Mod/插件导致了问题。
 
-If you don't have a **github account**, you can **join** our Discord server and report a bug with our Discord server directly with our bot, Thor.
+---
+
+> 我终于发现有一个插件或一个Mod不工作。我该怎么办？
+
+首先，您可以**加入**我们的[Discord 服务器](https://discord.gg/mohist)，以获得有关此Mod/插件的帮助。如果我们***无法帮助您，您需要在我们的[Github 页面](https://github.com/MohistMC/Mohist/issues)上**发送一个issue。
+
+如果您没有 Github 帐户，可以**加入**我们的 Discord 服务器，直接使用我们的机器人 Thor 在 Discord 服务器上报告错误。

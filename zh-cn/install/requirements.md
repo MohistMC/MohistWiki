@@ -1,18 +1,18 @@
 ## Mohist Versions
 ---
 
-Mohist needs Java to work.
+Mohist需要java来工作。
 
-> What Java version is required to install Mohist?
+> 我需要什么java版本来启动mohist?
 
-Mohist **1.7.10** requires **[Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)**.
+Mohist **1.7.10** 需要 **[Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)**.
 
-Mohist **1.12.2** requires **[Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)**.
+Mohist **1.12.2** 需要 **[Java 8](https://adoptium.net/?variant=openjdk8&jvmVariant=hotspot)**.
 
-Mohist **1.16.5** requires Java between **[Java 11](https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot)** and  **[Java 16](https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot)** (**Java 11** stay recommended).
+Mohist **1.16.5** 需要 **[Java 11](https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot)** 与 **[Java 16](https://adoptium.net/?variant=openjdk16&jvmVariant=hotspot)**之间的的版本 (我们推荐**Java 11**).
 
-Mohist **1.18.2 - 1.20** requires **[Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot)** and above (**Java 17** stay recommended).
+Mohist **1.18.2 - 1.20** 需要 **[Java 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot)** 或更高 (我们推荐**Java 17**).
 
 ---
 
-You can download Java versions [here](https://adoptium.net/).
+你可以在adoptium下载java [here](https://adoptium.net/).
