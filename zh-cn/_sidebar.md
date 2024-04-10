@@ -14,6 +14,8 @@
   - 1.20.1
       - [mohist.yml](/zh-cn/config/mohist-yml-1.20.1.md)
     - [Mohist 命令](/zh-cn/config/commands.md)
+- 权限
+  - [mohist](permission/mohist.md)
 - 开发
   - [网站 API](/zh-cn/developer/website-api.md)
   - [配置开发环境](/zh-cn/developer/setup.md)
