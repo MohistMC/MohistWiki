@@ -2,5 +2,5 @@
 * [Jenkins](https://ci.codemc.io/job/MohistMC)
 * [GitHub](https://github.com/MohistMC)
 * [Discord](https://discord.gg/mohistmc)
-* [QQ](https://jq.qq.com/?_wv=1027&k=5YIRYnH)
+* [QQ](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=zz0QJ7-FbXYox8D8wTMNxcH_NuklvEXh&authKey=sShkWVDJzHqAm1P63LG8iKp%2BfDPUZUb8J5oAPlmZVKciAOql2MKv6vu16GY380Bj&noverify=0&group_code=794930152)
 * [:cn: 简体中文](/zh-cn/)
